@@ -1,0 +1,3 @@
+version=3
+opts=uversionmangle=s/\.\d{2}$/$&0000/ \
+	https://metacpan.org/release/Validation-Class   .*/Validation-Class-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

@@ -1,0 +1,44 @@
+Description: fix a spelling mistake
+Origin: vendor
+Bug: https://rt.cpan.org/Ticket/Display.html?id=86158
+Forwarded: https://rt.cpan.org/Ticket/Display.html?id=86158
+Author: gregor herrmann <gregoa@debian.org>
+Last-Update: 2017-11-24
+
+--- a/lib/Validation/Class/Cookbook.pod
++++ b/lib/Validation/Class/Cookbook.pod
+@@ -524,7 +524,7 @@
+ 
+     # the order in which these frameworks are used is important
+     # loading Moose first ensures that the Moose::Object constructor
+-    # has precendence
++    # has precedence
+ 
+     sub BUILD {
+ 
+@@ -661,12 +661,12 @@
+ =head2 Problem
+ 
+ You want to know how to use your data validation classes to perform other tasks
+-programatically (e.g. generate documentation, etc).
++programmatically (e.g. generate documentation, etc).
+ 
+ =head2 Solution
+ 
+ By using the prototype class associated with your validation class you can
+-introspect it's configuration and perform additional tasks programatically.
++introspect it's configuration and perform additional tasks programmatically.
+ 
+ =head2 Discussion
+ 
+--- a/lib/Validation/Class.pm
++++ b/lib/Validation/Class.pm
+@@ -1033,7 +1033,7 @@
+ The ensure keyword (or ens) is used to convert a pre-existing method
+ into an auto-validating method. The auto-validating method will be
+ registered and function as if it was created using the method keyword.
+-The original pre-existing method will be overridden with a modifed version
++The original pre-existing method will be overridden with a modified version
+ which performs the pre and/or post validation routines.
+ 
+     package MyApp::Person;

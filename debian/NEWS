@@ -1,0 +1,15 @@
+libvalidation-class-perl (1.112870-1) unstable; urgency=low
+
+  From the upstream README:  
+
+    Important Note! Validation::Class just got a lot more flexible which came
+    at the cost of losing the grouped parameters functionality. AGAIN,
+    grouped parameters are no longer supported using the old way of doing
+    things. Validation::Class now supports hash
+    serialization/deserialization which means that you can now set the
+    parameters using a hashref of nested hashrefs and validate against them,
+    or set the parameters using a hashref of (serialized)key/(non-ref)value
+    pairs and validate against that. This function is provided in
+    Validation::Class via Hash::Flatten.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 16 Oct 2011 15:22:48 +0200

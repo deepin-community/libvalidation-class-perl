@@ -1,0 +1,18 @@
+Description: fix POD ERROR (=back without =over)
+Origin: vendor
+Bug: https://rt.cpan.org/Ticket/Display.html?id=96062
+Forwarded: https://rt.cpan.org/Ticket/Display.html?id=96062
+Author: gregor herrmann <gregoa@debian.org>
+Last-Update: 2014-05-29
+
+--- a/lib/Validation/Class.pm
++++ b/lib/Validation/Class.pm
+@@ -1793,8 +1793,6 @@
+ L<Mouse>, or L<Moose>. Alternatively, you could use decoupled object
+ validators like L<Type::Tiny>, L<Params::Validate> or L<Specio>.
+ 
+-=back
+-
+ =head1 AUTHOR
+ 
+ Al Newkirk <anewkirk@ana.io>

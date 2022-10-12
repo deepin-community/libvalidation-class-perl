@@ -1,0 +1,437 @@
+libvalidation-class-perl (7.900057-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Fabrizio Regalli from Uploaders. Thanks for your work!
+  * Add missing and undeclared (build) dependency on libclone-perl which
+    was pulled in by a prerequisite earlier.
+    Thanks to autopkgtest and ci.debian.net.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.1.1.
+  * Add more fixes to spelling.patch.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 24 Nov 2017 18:59:28 +0100
+
+libvalidation-class-perl (7.900057-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of upstream copyright.
+  * Update (build) dependencies.
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Bump debhelper compatibility level to 9.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 25 Oct 2015 23:07:48 +0100
+
+libvalidation-class-perl (7.900056-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Add a patch to fix a POD syntax error.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 29 May 2014 20:11:42 +0200
+
+libvalidation-class-perl (7.900055-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Imported Upstream version 7.900055
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 21 Apr 2014 22:20:43 +0200
+
+libvalidation-class-perl (7.900054-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.900054
+  * Bump Standards-Version to 3.9.5
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 07 Dec 2013 08:39:42 +0100
+
+libvalidation-class-perl (7.900052-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.900052
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 19 Sep 2013 20:34:48 +0200
+
+libvalidation-class-perl (7.900051-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * New upstream release 7.83.
+  * Add (build) dependency on libclass-forward-perl.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * New upstream release 7.900051.
+  * debian/watch: add uversionmangle in case upstream goes back to old
+    versioning system.
+  * Update years of packaging copyright.
+  * Set Standards-Version to 3.9.4 (no further changes).
+  * Add (build) dependency on liblist-moreutils-perl.
+  * Add a patch to fix a spelling mistake in the POD.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 15 Jun 2013 00:42:27 +0200
+
+libvalidation-class-perl (7.70-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 30 Jun 2012 19:40:36 +0200
+
+libvalidation-class-perl (7.69-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 27 Jun 2012 19:43:24 +0200
+
+libvalidation-class-perl (7.67-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.67
+  * Add dependency for Module::Runtime.
+    Add (Build-)Depends(-Indep) on libmodule-runtime-perl for new dependency
+    on Module::Runtime.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 20 Jun 2012 21:31:52 +0200
+
+libvalidation-class-perl (7.58-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.58
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 17 Jun 2012 08:35:35 +0200
+
+libvalidation-class-perl (7.55-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 15 Jun 2012 00:59:20 +0200
+
+libvalidation-class-perl (7.40-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.40
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 08 Jun 2012 20:00:48 +0200
+
+libvalidation-class-perl (7.39-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.39
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 04 Jun 2012 11:13:05 +0200
+
+libvalidation-class-perl (7.38-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.38
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 02 Jun 2012 14:15:38 +0200
+
+libvalidation-class-perl (7.37-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.37
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 27 May 2012 16:00:36 +0200
+
+libvalidation-class-perl (7.36-1) unstable; urgency=low
+
+  * Imported Upstream version 7.36
+  * Sorted B-D-I
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Sat, 26 May 2012 16:57:54 +0200
+
+libvalidation-class-perl (7.25-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.25
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 19 May 2012 21:38:23 +0200
+
+libvalidation-class-perl (7.21-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 7.21
+  * Drop spelling-error.diff patch.
+    Patch was applied upstream.
+  * Update Build-Depends-Indep for new tests.
+    Add libdbi-perl, libdbd-sqlite3-perl and libclass-method-modifiers-perl
+    to Build-Depends-Indep to enable two new tests.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 18 May 2012 08:44:53 +0200
+
+libvalidation-class-perl (7.13-1) unstable; urgency=low
+
+  * Update spelling-error.diff: the spelling error went into a different
+    file
+  * Add 2012 year in d/copyright for debian/* files
+  * Remove no more needed libvalidation-class-perl.examples file
+  * Remove libarray-unique-perl from B-D-I and Depends
+  * Change copyright holder name
+  * Imported Upstream version 7.13
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Thu, 03 May 2012 23:40:08 +0200
+
+libvalidation-class-perl (6.05-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh spelling patch (offset).
+  * Install new examples.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 16 Apr 2012 22:41:30 +0200
+
+libvalidation-class-perl (5.83-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 5.83
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 25 Mar 2012 10:17:42 +0200
+
+libvalidation-class-perl (5.82-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update spelling-error.diff: the spelling error went into a different
+    file.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 24 Mar 2012 14:12:11 +0100
+
+libvalidation-class-perl (5.22-1) unstable; urgency=low
+
+  * Team upload
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+  * Update debian/copyright format as in Debian Policy 3.9.3
+  * Bump Standards-Version to 3.9.3
+
+  [ gregor herrmann ]
+  * Refresh patch (offset).
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Wed, 29 Feb 2012 14:38:00 +0100
+
+libvalidation-class-perl (5.20-1) unstable; urgency=low
+
+  * Team upload
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+
+  [ gregor herrmann ]
+  * Refresh patch (offset).
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Mon, 20 Feb 2012 12:49:17 +0100
+
+libvalidation-class-perl (5.15-1) unstable; urgency=low
+
+  * Team upload
+  * New upstream release
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Sun, 19 Feb 2012 20:49:45 +0100
+
+libvalidation-class-perl (5.10-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove now unneeded (build) dependency.
+  * Refresh spelling-error.diff (offset).
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 18 Feb 2012 14:36:54 +0100
+
+libvalidation-class-perl (4.01003514-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh spelling patch.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 07 Feb 2012 19:48:08 +0100
+
+libvalidation-class-perl (3.4.4-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 3.4.4
+  * Refresh spelling-error.diff (offset)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 28 Jan 2012 22:21:23 +0100
+
+libvalidation-class-perl (3.1.1-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 3.1.1
+  * Refresh spelling-error.diff (offset)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 10 Dec 2011 09:43:00 +0100
+
+libvalidation-class-perl (3.0.0-1) unstable; urgency=low
+
+  * Imported Upstream version 3.0.0
+  * Added libhash-merge-perl to B-D-I and Depends
+  * Refreshed patch spelling-error.diff
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Mon, 05 Dec 2011 11:30:39 +0100
+
+libvalidation-class-perl (2.7.7-1) unstable; urgency=low
+
+  * Imported Upstream version 2.7.7
+  * Update d/copyright to latest .174 revision of DEP-5 format
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Thu, 01 Dec 2011 21:48:23 +0100
+
+libvalidation-class-perl (2.7.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh spelling patch.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 27 Nov 2011 13:36:23 +0100
+
+libvalidation-class-perl (2.7.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update patch spelling-error.diff.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 20 Nov 2011 16:23:57 +0100
+
+libvalidation-class-perl (2.6.0-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 2.6.0
+  * Refresh spelling-error.diff patch (offset)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 11 Nov 2011 17:03:34 +0100
+
+libvalidation-class-perl (2.5.2-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 2.5.2
+  * Refresh spelling-error.diff patch (offsets)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 09 Nov 2011 10:36:02 +0100
+
+libvalidation-class-perl (2.5.0-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 2.5.0
+  * Refresh patch offset for spelling-error.diff
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 06 Nov 2011 00:21:20 +0100
+
+libvalidation-class-perl (2.4.7-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 2.4.7
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 04 Nov 2011 10:12:02 +0100
+
+libvalidation-class-perl (2.4.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * New build and runtime dependencies: libmodule-find-perl, libmoosex-
+    traits-perl.
+  * Update spelling-error.diff.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 04 Nov 2011 00:58:51 +0100
+
+libvalidation-class-perl (2.0.01-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update spelling-error.diff.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 25 Oct 2011 15:27:43 +0200
+
+libvalidation-class-perl (1.112870-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add new build/runtime dependency: libhash-flatten-perl.
+  * Add debian/NEWS mentioning some behaviour change.
+  * Refresh spelling-error.diff (offset).
+  * Add /me to Uploaders.
+  * Fix another spelling mistake.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 16 Oct 2011 15:29:55 +0200
+
+libvalidation-class-perl (1.112570-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 1.112570
+  * debian/copyright: Update copyright years for upstream files.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 15 Sep 2011 07:28:20 +0200
+
+libvalidation-class-perl (1.112530-2) unstable; urgency=low
+
+  * Team upload.
+  * Fix Vcs-Browser and Vcs-Git URLs
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 10 Sep 2011 10:00:32 +0200
+
+libvalidation-class-perl (1.112530-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 1.112530
+  * Refresh spelling-error.diff patch (offset).
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 10 Sep 2011 09:17:15 +0200
+
+libvalidation-class-perl (0.111913-1) unstable; urgency=low
+
+  * Team upload.
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+  * Imported Upstream version 0.111913
+  * debian/patches: Refresh spelling-error.diff patch. Update offset for
+    the patch.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 04 Sep 2011 20:19:24 +0200
+
+libvalidation-class-perl (0.111912-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 0.111912
+  * debian/patches: Refresh spelling-error.diff (offset)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 29 Jul 2011 18:10:09 +0200
+
+libvalidation-class-perl (0.111901-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Sun, 10 Jul 2011 10:20:22 +0200
+
+libvalidation-class-perl (0.111900-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * No longer (build-)dep on libhash-merge-perl.
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Sat, 09 Jul 2011 09:54:38 +0200
+
+libvalidation-class-perl (0.111870-1) unstable; urgency=low
+
+  * New upstream version.
+  * Upgrade d/compat to 8.
+  * Upgrade debhelper to (>= 8).
+  * Added myself to Uploaders and Copyright.
+  * Switch to 3.0 quilt format.
+  * Added spelling-error.diff patch.
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Thu, 07 Jul 2011 11:29:38 +0200
+
+libvalidation-class-perl (0.111720-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #631712 -- ITP)
+
+ -- Damyan Ivanov <dmn@debian.org>  Sun, 26 Jun 2011 17:37:47 +0300
